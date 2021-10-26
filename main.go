@@ -26,6 +26,7 @@ func main() {
 
 	print("test push")
 	print("test push2")
+	print("test push3")
 
 
 	router := mux.NewRouter()

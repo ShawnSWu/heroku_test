@@ -24,6 +24,8 @@ func main() {
 		port = "8080"
 	}
 
+	print("test push")
+
 
 	router := mux.NewRouter()
 	router.HandleFunc("/user", addUser).Methods(http.MethodPost)
